@@ -68,12 +68,6 @@ public class SignupController {
     @FXML
     public void initialize() {
 
-        Image brandingImage = new Image(
-            Objects.requireNonNull(
-                    getClass().getResource("/org/example/hsf301/assets/img/branding.png"))
-                .toExternalForm());
-        brandingImageView.setImage(brandingImage);
-
         Image logoImage = new Image(
             Objects.requireNonNull(getClass().getResource("/org/example/hsf301/assets/img/koi.png"))
                 .toExternalForm());
